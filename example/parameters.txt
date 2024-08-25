@@ -1,0 +1,2 @@
+seqin	Pseudomonas_aeruginosa_F63912_7033.fna
+reference	Pseudomonas_aeruginosa_PAO1_107.fna

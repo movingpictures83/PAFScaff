@@ -1,0 +1,90 @@
+
+PAFScaff V0.5.0 run: Wed Aug 14 20:19:53 2024
+
+  ###################################################################################################################
+  #|#> PAFScaff version 0.5.0 : Pairwise mApping Format reference-based scaffold anchoring and super-scaffolding <#|#
+  #|#>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<#|#
+  #|#> Copyright (c) 2019 Dr Richard J. Edwards. <#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#> Last Modified: January 2022 <#|#
+  #|#>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<#|#
+  #|#> Disclaimer: PAFScaff comes with ABSOLUTELY NO WARRANTY;                                                   <#|#
+  #|#>   This is free software, and you are welcome to redistribute it;                                          <#|#
+  #|#>   For details see attached license file (gnu_general_public_license.txt)                                  <#|#
+  #|#>   or http://www.gnu.org/copyleft/gpl.html.                                                                <#|#
+  #|#>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<#|#
+  #|#> This program is still in development and has not been published.                                          <#|#
+  #|#> It is extraordinary to shatter disease because a deadly lion ponders truth                                <#|#
+  ###################################################################################################################
+
+
+Append file: /disk/delphi/users/tcickovs/PluMA/pafscaff.log
+
+#VIO	00:00:00	Verbosity: 1; Interactivity: 0.
+#NOTE	00:00:00	Interactivity could cause problems for queued HPC jobs etc. If so, set i=-1.
+#BASE	00:00:00	pafscaff
+#REFIN	00:00:00	Loading reference (target) sequences.
+#LOAD	00:00:00	Load sequences from plugins/PAFScaff/example///Pseudomonas_aeruginosa_PAO1_107.fna
+#SEQ	00:00:00	1 of 1 sequences loaded from plugins/PAFScaff/example///Pseudomonas_aeruginosa_PAO1_107.fna.index (Format: index).
+#FILT	00:00:00	1 of 1 sequences retained.
+#SEQIN	00:00:00	Loading assembly (query) sequences.
+#LOAD	00:00:00	Load sequences from plugins/PAFScaff/example///Pseudomonas_aeruginosa_F63912_7033.fna
+#SEQ	00:00:00	1 of 1 sequences loaded from plugins/PAFScaff/example///Pseudomonas_aeruginosa_F63912_7033.fna.index (Format: index).
+#FILT	00:00:00	1 of 1 sequences retained.
+#PAFIN	00:00:00	Minimap2 PAF file set: pafscaff.paf
+#PAF	00:00:00	pafscaff.paf found and force=F: minimap2 run skipped.
+#~~#	00:00:00	# ~~~~~~~~~~~~~~~~ Parsing PAF Alignments ~~~~~~~~~~~~~~~~ #
+#PAF	00:00:00	Parsing pafscaff.paf
+#PAF	00:00:00	Parsing 0 lines#PAF	00:00:00	Parsing 1 lines#PAF	00:00:00	Parsing 2 lines#PAF	00:00:00	Parsing 3 lines#PAF	00:00:00	Parsing 4 lines#PAF	00:00:00	Parsing 5 lines#PAF	00:00:00	Parsing 6 lines#PAF	00:00:00	Parsing 7 lines#PAF	00:00:00	Parsing 8 lines#PAF	00:00:00	Parsing 9 lines#PAF	00:00:00	Parsing 10 lines#PAF	00:00:00	Parsing 11 lines#PAF	00:00:00	Parsing 12 lines#PAF	00:00:00	Parsing 13 lines#PAF	00:00:00	Parsing 14 lines#PAF	00:00:00	Parsing 15 lines#PAF	00:00:00	Parsing 16 lines#PAF	00:00:00	Parsing 17 lines#PAF	00:00:00	Parsing 18 lines#PAF	00:00:00	Parsing 19 lines#PAF	00:00:00	Parsing 20 lines#PAF	00:00:00	Parsing 21 lines#PAF	00:00:00	Parsing 22 lines#PAF	00:00:00	Parsing 23 lines#PAF	00:00:00	Parsing 24 lines#PAF	00:00:00	Parsing 25 lines#PAF	00:00:00	Parsing 26 lines#PAF	00:00:00	Parsing 27 lines#PAF	00:00:00	Parsing 28 lines#PAF	00:00:00	Parsing 29 lines#PAF	00:00:00	Parsing 30 lines#PAF	00:00:00	Parsing 31 lines#PAF	00:00:00	Parsing 32 lines#PAF	00:00:00	Parsing 33 lines#PAF	00:00:00	Parsing 34 lines#PAF	00:00:00	Parsing 35 lines#PAF	00:00:00	Parsing 36 lines#PAF	00:00:00	Parsing 37 lines#PAF	00:00:00	Parsing 38 lines#PAF	00:00:00	Parsing 39 lines#PAF	00:00:00	Parsing 40 lines#PAF	00:00:00	Parsing 41 lines#PAF	00:00:00	Parsing 42 lines#PAF	00:00:00	Parsing 43 lines#PAF	00:00:00	Parsing 44 lines#PAF	00:00:00	Parsing 45 lines#PAF	00:00:00	Parsing 46 lines#PAF	00:00:00	Parsing 47 lines#PAF	00:00:00	Parsing 48 lines#PAF	00:00:00	Parsing 49 lines#PAF	00:00:00	Parsing 50 lines#PAF	00:00:00	Parsing 51 lines#PAF	00:00:00	Parsing 52 lines#PAF	00:00:00	Parsing 53 lines#PAF	00:00:00	Parsing 54 lines#PAF	00:00:00	Parsing 55 lines#PAF	00:00:00	Parsing 56 lines#PAF	00:00:00	Parsing 57 lines#PAF	00:00:00	Parsing 58 lines#PAF	00:00:00	Parsing 59 lines#PAF	00:00:00	Parsing 60 lines#PAF	00:00:00	Parsing 61 lines#PAF	00:00:00	Parsing 62 lines#PAF	00:00:00	Parsing 63 lines#PAF	00:00:00	Parsing 64 lines#PAF	00:00:00	Parsing 65 lines#PAF	00:00:00	Parsing 66 lines#PAF	00:00:00	Parsing 67 lines#PAF	00:00:00	Parsing 68 lines#PAF	00:00:00	Parsing 69 lines#PAF	00:00:00	Parsing 70 lines#PAF	00:00:00	Parsing 71 lines#PAF	00:00:00	Parsing 72 lines#PAF	00:00:00	Parsing 73 lines#PAF	00:00:00	Parsing 74 lines#PAF	00:00:00	Parsing 75 lines#PAF	00:00:00	Parsing 76 lines#PAF	00:00:00	Parsing 77 lines#PAF	00:00:00	Parsing 78 lines#PAF	00:00:00	Parsing 79 lines#PAF	00:00:00	Parsing 80 lines#PAF	00:00:00	Parsing 81 lines#PAF	00:00:00	Parsing 82 lines#PAF	00:00:00	Parsing 83 lines#PAF	00:00:00	Parsing 84 lines#PAF	00:00:00	Parsing 85 lines#PAF	00:00:00	Parsing 86 lines#PAF	00:00:00	Parsing 87 lines#PAF	00:00:00	Parsing 88 lines#PAF	00:00:00	Parsing 89 lines#PAF	00:00:00	Parsing 90 lines#PAF	00:00:00	Parsing 91 lines#PAF	00:00:00	Parsing 92 lines#PAF	00:00:00	Parsing 93 lines#PAF	00:00:00	Parsing 94 lines#PAF	00:00:00	Parsing 95 lines#PAF	00:00:00	Parsing 96 lines#PAF	00:00:00	Parsing 97 lines#PAF	00:00:00	Parsing 98 lines#PAF	00:00:00	Parsing 99 lines#PAF	00:00:00	Parsing 100 lines#PAF	00:00:00	Parsing 101 lines#PAF	00:00:00	Parsing 102 lines#PAF	00:00:00	Parsing 103 lines#PAF	00:00:00	Parsing 104 lines#PAF	00:00:00	Parsing 105 lines#PAF	00:00:00	Parsing 106 lines#PAF	00:00:00	Parsing 107 lines#PAF	00:00:00	Parsing 108 lines#PAF	00:00:00	Parsing 109 lines#PAF	00:00:00	Parsing 110 lines#PAF	00:00:00	Parsing 111 lines#PAF	00:00:00	Parsing 112 lines#PAF	00:00:00	Parsing 113 lines#PAF	00:00:00	Parsing 114 lines#PAF	00:00:00	Parsing 115 lines#PAF	00:00:00	Parsing 116 lines#PAF	00:00:00	Parsing 117 lines#PAF	00:00:00	Parsing 118 lines#PAF	00:00:00	Parsing 119 lines#PAF	00:00:00	Parsing 120 lines#PAF	00:00:00	Parsing 121 lines#PAF	00:00:00	Parsed 122 lines from pafscaff.paf
+#~~#	00:00:00	# ~~~~~~ Assign scaffolds to reference chromosomes ~~~~~~~ #
+#DROP	00:00:00	26 paf fields reduced to 12 fields
+#CMPRSS	00:00:00	Compressed table "paf": 14 fields; 2 entries
+#DROP	00:00:00	Dropping paf entries on Rank: 0.00%#DROP	00:00:00	Dropping paf entries on Rank: 50.00%#DROP	00:00:00	2 paf entries reduced to 1 entries on Rank.
+#~~#	00:00:00	# ~~~~~~~~~~~~~~ Rename pafscaff scaffolds ~~~~~~~~~~~~~~~ #
+#REFN	00:00:00	Ranking by QryLen for Reference Chromosome subnumbering
+#CHRMAP	00:00:00	refseq|NZ_CP008858.2|chromosome: RevComp refseq|NZ_CP008858.2|chromosome len=6.619 Mb; 63.19% refseq|NC_002516.2|chromosome(-) 294,592:6,158,926; 35.26% refseq|NC_002516.2|chromosome(+);
+#~~#	00:00:00	# ~~~~~~~~~~~~~~ Output pafscaff scaffolds ~~~~~~~~~~~~~~~ #
+#OUT	00:00:00	Preparing fasta output...#OUT	00:00:00	Sorted scaffold output... #SORT	00:00:00	Generating unplaced scaffold output without sorting.
+#OUT	00:00:00	Unplaced scaffold output...#OUT	00:00:00	1 anchored scaffolds output to: pafscaff.anchored.fasta
+#OUT	00:00:00	0 placed scaffolds output to: pafscaff.placed.fasta
+#OUT	00:00:00	0 unplaced scaffolds output to: pafscaff.unplaced.fasta
+#LOAD	00:00:00	Load sequences from pafscaff.anchored.fasta
+#SEQ	00:00:00	1 of 1 sequences loaded from pafscaff.anchored.fasta (Format: fas).
+#INDEX	00:00:00	Index file pafscaff.anchored.fasta.index made
+#FILT	00:00:00	1 of 1 sequences retained.
+#GAPS	00:00:00	Identifying all runs of 10+ Ns as gaps. (Warning: can be slow for large, gappy genomes.)
+#~~#	00:00:00	# ~~~~~~~~ Sequence Summary for pafscaff.anchored ~~~~~~~~ #
+#SUM	00:00:00	Total number of sequences:#SUM	00:00:00	Total number of sequences: 0#SUM	00:00:00	Total number of sequences: 1
+#SUM	00:00:00	Total length of sequences: 6,618,768
+#SUM	00:00:00	Min. length of sequences: 6,618,768
+#SUM	00:00:00	Max. length of sequences: 6,618,768
+#SUM	00:00:00	Mean length of sequences: 6,618,768.00
+#SUM	00:00:00	Median length of sequences: 6,618,768
+#SUM	00:00:00	N50 length of sequences: 6,618,768
+#SUM	00:00:00	L50 count of sequences: 1
+#SUM	00:00:00	Total number of contigs: 1
+#SUM	00:00:00	GC content: 66.25%
+#SUM	00:00:00	N bases: 0 (0.00%)
+#SUM	00:00:00	Gap (10+ N) length: 0 (0.00%)
+#SUM	00:00:00	Gap (10+ N) count: 0
+#SAVE	00:00:00	Saving table "paf"...#SAVE	00:00:00	Saving table "paf": 0.0%#SAVE	00:00:00	Table "paf" saved to "pafscaff.scaffolds.tdt": 1 entries.
+#GAP	00:00:01	0 reference-scaffolded super-scaffolds generated: 0 gap regions inserted
+#OUT	00:00:01	1 scaffold sequences output to: pafscaff.scaffolded.fasta
+#LOAD	00:00:01	Load sequences from pafscaff.scaffolded.fasta
+#SEQ	00:00:01	1 of 1 sequences loaded from pafscaff.scaffolded.fasta (Format: fas).
+#FILT	00:00:01	1 of 1 sequences retained.
+#GAPS	00:00:01	Identifying all runs of 10+ Ns as gaps. (Warning: can be slow for large, gappy genomes.)
+#~~#	00:00:01	# ~~~~~~~ Sequence Summary for pafscaff.scaffolded ~~~~~~~ #
+#SUM	00:00:01	Total number of sequences:#SUM	00:00:01	Total number of sequences: 0#SUM	00:00:01	Total number of sequences: 1
+#SAVE	00:00:01	Saving table "sequences"...#SAVE	00:00:01	Saving table "sequences": 0.0%#SAVE	00:00:01	Table "sequences" saved to "pafscaff.scaffolded.sequences.tdt": 1 entries.
+#SUM	00:00:01	Total length of sequences: 6,618,768
+#SUM	00:00:01	Min. length of sequences: 6,618,768
+#SUM	00:00:01	Max. length of sequences: 6,618,768
+#SUM	00:00:01	Mean length of sequences: 6,618,768.00
+#SUM	00:00:01	Median length of sequences: 6,618,768
+#SUM	00:00:01	N50 length of sequences: 6,618,768
+#SUM	00:00:01	L50 count of sequences: 1
+#SUM	00:00:01	Total number of contigs: 1
+#SUM	00:00:01	GC content: 66.25%
+#SUM	00:00:01	N bases: 0 (0.00%)
+#SUM	00:00:01	Gap (10+ N) length: 0 (0.00%)
+#SUM	00:00:01	Gap (10+ N) count: 0
+#LOG	00:00:01	PAFScaff V0.5.0 End: Wed Aug 14 20:19:54 2024
